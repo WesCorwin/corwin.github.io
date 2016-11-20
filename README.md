@@ -1,2 +1,2 @@
-# corwin.github.io
-Github website
+# wescorwin.github.io
+GitHub website
