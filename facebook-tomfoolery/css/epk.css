@@ -1,0 +1,115 @@
+body {
+  background-color: #89cff0;
+}
+
+.shots-on-stage {
+  width:100%;
+}
+
+.grid {
+  display: grid;
+  width: 100%;
+}
+
+.single
+
+.double-grid {
+  grid-template-columns: auto auto;
+}
+
+.triple-grid {
+  grid-template-columns: auto auto auto;
+}
+
+.myButton {
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Lobster', monospace;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+  text-align: center;
+}
+
+.myButton:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.bio {
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.bio p {
+  font-family: 'Odibee Sans', monospace;
+  font-size: medium;
+}
+
+.side-image {
+  float: right;
+  height: 25%;
+}
+
+.brochure {
+  font-family: 'Lobster', monospace;
+}
+
+.brochure-flap {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  text-align: center;
+}
+
+.contact-form {
+  display: grid;
+  grid-template-columns: auto;
+  width:100%;
+  font-family: 'Lobster', monospace;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.videos {
+  display: grid;
+  grid-template-columns: auto;
+  width:100%;
+  font-family: 'Lobster', monospace;
+  text-align: center;
+}
+
+.contact-flap {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  text-align: center;
+}
+
+.video-flap {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .brochure-flap-content {
+    font-size: x-small;
+  }
+
+  h1 {
+    font-size: medium;
+  }
+}
